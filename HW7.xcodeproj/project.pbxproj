@@ -15,6 +15,9 @@
 		70A4212C2428F5B0006F5A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A4212A2428F5B0006F5A0B /* LaunchScreen.storyboard */; };
 		70A421372428F5B1006F5A0B /* HW7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A421362428F5B1006F5A0B /* HW7Tests.swift */; };
 		70A421422428F5B1006F5A0B /* HW7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A421412428F5B1006F5A0B /* HW7UITests.swift */; };
+		70B542DC24490A3400A95923 /* tbControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542DB24490A3400A95923 /* tbControllerViewController.swift */; };
+		70B542E624490CF900A95923 /* tab1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542E524490CF900A95923 /* tab1VC.swift */; };
+		70B542E824490D1100A95923 /* tab2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542E724490D1100A95923 /* tab2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		70A4213D2428F5B1006F5A0B /* HW7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A421412428F5B1006F5A0B /* HW7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW7UITests.swift; sourceTree = "<group>"; };
 		70A421432428F5B1006F5A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B542DB24490A3400A95923 /* tbControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbControllerViewController.swift; sourceTree = "<group>"; };
+		70B542E524490CF900A95923 /* tab1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1VC.swift; sourceTree = "<group>"; };
+		70B542E724490D1100A95923 /* tab2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				70A421212428F5A9006F5A0B /* SceneDelegate.swift */,
 				70A421232428F5A9006F5A0B /* ViewController.swift */,
 				70A421252428F5A9006F5A0B /* Main.storyboard */,
+				70B542E524490CF900A95923 /* tab1VC.swift */,
+				70B542E724490D1100A95923 /* tab2VC.swift */,
+				70B542DB24490A3400A95923 /* tbControllerViewController.swift */,
 				70A421282428F5B0006F5A0B /* Assets.xcassets */,
 				70A4212A2428F5B0006F5A0B /* LaunchScreen.storyboard */,
 				70A4212D2428F5B0006F5A0B /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B542DC24490A3400A95923 /* tbControllerViewController.swift in Sources */,
+				70B542E824490D1100A95923 /* tab2VC.swift in Sources */,
 				70A421242428F5A9006F5A0B /* ViewController.swift in Sources */,
 				70A421202428F5A9006F5A0B /* AppDelegate.swift in Sources */,
 				70A421222428F5A9006F5A0B /* SceneDelegate.swift in Sources */,
+				70B542E624490CF900A95923 /* tab1VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
