@@ -18,6 +18,7 @@
 		70B542DC24490A3400A95923 /* tbControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542DB24490A3400A95923 /* tbControllerViewController.swift */; };
 		70B542E624490CF900A95923 /* tab1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542E524490CF900A95923 /* tab1VC.swift */; };
 		70B542E824490D1100A95923 /* tab2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542E724490D1100A95923 /* tab2VC.swift */; };
+		70B542EA244FC05200A95923 /* tab3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B542E9244FC05200A95923 /* tab3VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		70B542DB24490A3400A95923 /* tbControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tbControllerViewController.swift; sourceTree = "<group>"; };
 		70B542E524490CF900A95923 /* tab1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1VC.swift; sourceTree = "<group>"; };
 		70B542E724490D1100A95923 /* tab2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab2VC.swift; sourceTree = "<group>"; };
+		70B542E9244FC05200A95923 /* tab3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab3VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				70A421212428F5A9006F5A0B /* SceneDelegate.swift */,
 				70A421232428F5A9006F5A0B /* ViewController.swift */,
 				70A421252428F5A9006F5A0B /* Main.storyboard */,
+				70B542E9244FC05200A95923 /* tab3VC.swift */,
 				70B542E524490CF900A95923 /* tab1VC.swift */,
 				70B542E724490D1100A95923 /* tab2VC.swift */,
 				70B542DB24490A3400A95923 /* tbControllerViewController.swift */,
@@ -274,6 +277,7 @@
 				70A421202428F5A9006F5A0B /* AppDelegate.swift in Sources */,
 				70A421222428F5A9006F5A0B /* SceneDelegate.swift in Sources */,
 				70B542E624490CF900A95923 /* tab1VC.swift in Sources */,
+				70B542EA244FC05200A95923 /* tab3VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
